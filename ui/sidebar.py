@@ -22,7 +22,6 @@ def render_sidebar():
     st.markdown(
         """
         <style>
-            [data-testid="stSidebarNav"] { display: none !important; }
             [data-testid="stSidebar"] { padding-top: 0.75rem; }
             .sidebar-title { font-weight: 700; font-size: 1rem; margin: 0.5rem 0 1rem 0; color: #e5e7eb; }
             .stButton { margin-bottom: 0.45rem; }
@@ -52,4 +51,7 @@ def render_sidebar():
 
     st.sidebar.markdown('<div class="sidebar-title">BuyLow OS</div>', unsafe_allow_html=True)
     for label, path, icon in NAV_ITEMS:
-        st.sidebar.page_link(path, label=f"{icon} {label}")
+        try:
+            st.sidebar.page_link(path, label=f"{icon} {label}")
+        except Exception:
+            st.sidebar.markdown(f"{icon} {label}")
