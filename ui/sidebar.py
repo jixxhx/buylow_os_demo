@@ -52,5 +52,4 @@ def render_sidebar():
 
     st.sidebar.markdown('<div class="sidebar-title">BuyLow OS</div>', unsafe_allow_html=True)
     for label, path, icon in NAV_ITEMS:
-        if st.sidebar.button(f"{icon} {label}", key=f"nav_{path}"):
-            st.switch_page(path)
+        st.sidebar.page_link(path, label=f"{icon} {label}")
