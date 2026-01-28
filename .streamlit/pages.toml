@@ -1,0 +1,64 @@
+[[pages]]
+path = "Home.py"
+name = "홈"
+icon = "🏠"
+
+[[pages]]
+path = "pages/01_cs_chat.py"
+name = "CS 챗봇"
+icon = "💬"
+
+[[pages]]
+path = "pages/02_quiz.py"
+name = "진단 퀴즈"
+icon = "🧭"
+
+[[pages]]
+path = "pages/03_homework.py"
+name = "과제 제출"
+icon = "📤"
+
+[[pages]]
+path = "pages/04_risk_check.py"
+name = "리스크 체크"
+icon = "🛡️"
+
+[[pages]]
+path = "pages/05_admin.py"
+name = "관리자"
+icon = "⚙️"
+
+[[pages]]
+path = "pages/06_announcements.py"
+name = "공지 허브"
+icon = "📢"
+
+[[pages]]
+path = "pages/07_onboarding.py"
+name = "온보딩"
+icon = "🚀"
+
+[[pages]]
+path = "pages/08_operator_dashboard.py"
+name = "운영자 대시보드"
+icon = "📊"
+
+[[pages]]
+path = "pages/09_content_library.py"
+name = "교육 콘텐츠"
+icon = "📚"
+
+[[pages]]
+path = "pages/10_grading_assistant.py"
+name = "과제 채점"
+icon = "✏️"
+
+[[pages]]
+path = "pages/11_unlocked_lessons.py"
+name = "언락 해설"
+icon = "🔓"
+
+[[pages]]
+path = "pages/12_advanced_practice.py"
+name = "심화 연습"
+icon = "🎯"
