@@ -3,7 +3,6 @@ from datetime import datetime
 import time
 import textwrap
 import streamlit.components.v1 as components
-from ui.sidebar import render_sidebar
 
 st.set_page_config(
     page_title="BuyLow OS",
@@ -399,7 +398,6 @@ if not st.session_state.intro_shown:
     st.session_state.intro_shown = True
     st.rerun()
 
-render_sidebar()
 
 # 미래지향적 + 대중친화적 CSS (진입 애니메이션 포함)
 st.markdown("""
@@ -996,3 +994,4 @@ st.markdown("""
     <p class="footer-text">© 2026 BuyLow Strategy Inc.</p>
 </div>
 """, unsafe_allow_html=True)
+
