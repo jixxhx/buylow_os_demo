@@ -1,0 +1,34 @@
+{
+  "demo_user": {
+    "warnings": [
+      {
+        "type": "손절가 미설정",
+        "count": 1,
+        "last_occurred": "2026-01-25 14:00:00"
+      },
+      {
+        "type": "과도한 레버리지",
+        "count": 0,
+        "last_occurred": null
+      },
+      {
+        "type": "과도한 포지션 비중",
+        "count": 0,
+        "last_occurred": null
+      },
+      {
+        "type": "진입 근거 부족",
+        "count": 1,
+        "last_occurred": "2026-01-24 10:00:00"
+      },
+      {
+        "type": "감정적 상태 위험",
+        "count": 0,
+        "last_occurred": null
+      }
+    ],
+    "mini_course_completed": false,
+    "total_checks": 5,
+    "high_risk_count": 1
+  }
+}

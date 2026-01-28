@@ -1,0 +1,17 @@
+[
+  {
+    "submission_id": 1,
+    "reviewer": "operator",
+    "reviewed_at": "2026-01-26 16:00:00",
+    "checklist": {
+      "divergence_explained": true,
+      "support_resistance_mentioned": false,
+      "stop_loss_clear": true,
+      "position_size_appropriate": true,
+      "emotion_recorded": false
+    },
+    "passed_count": 3,
+    "total_count": 5,
+    "feedback": "다이버전스 설명이 좋습니다. 지지/저항 구간과 감정 상태 기록을 추가해보세요."
+  }
+]

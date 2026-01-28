@@ -1,0 +1,42 @@
+{
+  "demo_user": {
+    "nickname": "demo_user",
+    "created_at": "2026-01-20 10:00:00",
+    "onboarding_completed": false,
+    "onboarding_checklist": {
+      "membership_confirmed": false,
+      "education_order_checked": false,
+      "homework_method_checked": false,
+      "nickname_rule_checked": false,
+      "faq_checked": false,
+      "cs_rule_checked": false
+    },
+    "grade": "브론즈",
+    "points": 0,
+    "homework_count": 0,
+    "homework_streak": 0,
+    "last_homework_date": null,
+    "risk_violations": 0,
+    "self_resolved_ratio": 0
+  },
+  "My name (Test)": {
+    "nickname": "My name (Test)",
+    "created_at": "2026-01-27 18:42:59",
+    "onboarding_completed": false,
+    "onboarding_checklist": {
+      "membership_confirmed": false,
+      "education_order_checked": false,
+      "homework_method_checked": false,
+      "nickname_rule_checked": false,
+      "faq_checked": false,
+      "cs_rule_checked": false
+    },
+    "grade": "브론즈",
+    "points": 0,
+    "homework_count": 0,
+    "homework_streak": 0,
+    "last_homework_date": null,
+    "risk_violations": 0,
+    "self_resolved_ratio": 0
+  }
+}
