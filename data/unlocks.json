@@ -1,0 +1,22 @@
+{
+  "demo_user": {
+    "divergence_lesson": false,
+    "divergence_advanced": false,
+    "support_resistance_lesson": false,
+    "support_resistance_advanced": false,
+    "srl_lesson": false,
+    "srl_advanced": false,
+    "tail_candle_lesson": false,
+    "tail_candle_advanced": false
+  },
+  "unlock_conditions": {
+    "divergence_lesson": {"type": "homework", "topic": "다이버전스", "count": 1},
+    "divergence_advanced": {"type": "homework", "topic": "다이버전스", "count": 2},
+    "support_resistance_lesson": {"type": "homework", "topic": "지지저항", "count": 1},
+    "support_resistance_advanced": {"type": "homework", "topic": "지지저항", "count": 2},
+    "srl_lesson": {"type": "homework", "topic": "SRL", "count": 1},
+    "srl_advanced": {"type": "homework", "topic": "SRL", "count": 2},
+    "tail_candle_lesson": {"type": "homework", "topic": "아래꼬리", "count": 1},
+    "tail_candle_advanced": {"type": "homework", "topic": "아래꼬리", "count": 2}
+  }
+}
